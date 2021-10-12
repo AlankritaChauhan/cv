@@ -1,74 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Alankrita's Personal Site</title>
+    <title>Alankrita's Personal Site</title>
+    <style>
+          .headings
+          {
+            text-align: center;
+            color: green;
+            font-weight: bold;
+          }
+          #name
+          {
+          background-color: darkblue;
+            font-family:monospace;
+            text-align: center;
+            color: white;
+          }
+          .text
+          {
+
+            text-align:left;
+            font-family: sans-serif;
+            font-size: large;
+            font-weight: normal;
+          }
+          .table{
+            color: darkblue;
+            font-family: sans-serif;
+
+            font-weight: bold;
+
+          }
+        </style>
+
   </head>
   <body>
-    <table cellspacing="20">
+    <table cellspacing="15">
       <tr>
-        <td><img src="image/Alankrita.png"alt="Alankrita profile photo" width="215" height="200"/></td>
-        <td><h1>Alankrita Chauhan</h1>
-        <p><em>A student at <strong><a href="http://www.banasthali.org/banasthali/admissions/?utm_source=jagranjosh&utm_medium=banner&utm_campaign=others">Banasthali Vidyapith</a></strong> learing Web development.</em></p>
-        <p>My name is Alankrita Chauhan,a student studing at banasthali vidyapith.I am doing enginnering from
-          this institution.Currently I am in my 2nd year doing .Along with my studies I am doing a course from udemy
-          which a web development course,I hope that this comes out to be worth my time .</p></td>
-      </tr>
-    </table>
+      <td>  <img src="C:\Users\alank\Desktop\Web Devp\web_dep\Milestone_1\image\Alankrita.png" alt="Alankrita's photo" height="215" width="210" align="left"></td>
+    <td>  <h1 id="name" >Alankrita Chauhan</h1>
 
+       <div class="text">
 
-        <hr>
-        <h3>Education</h3>
-         <ul type="circle">
-           <li>Wisdom School,Pithoragar</li>
-           <li><a href="https://school.careers360.com/schools/koormanchal-academy-almora">Koormachal Acedemy</a></li>
-           <li>Banasthali Vidyapith</li>
+           <em><strong>  A student at Banasthali Vidyapith.</strong></em>
+              <br>
+              <br>
+             My name is Alankrita Chauhan.I am doing my enginnering from Banasthali Vidyapith.
+             Currently I am in my second year.I am also learing an extra skill of web development.
+             Along wih this i am learing "German Converstaion".
+             <br>
+             I am a girl who loves learing and exploring new things.
+           </div></td>
+            </tr>
+
+          </table>
+          <hr>
+
+            <h2> <span class="headings">Education</span></h2>
+          <ul typle =disc class="text" >
+            <li><strong>School Education</strong></li>
+              <ol>
+                <li> <a href="https://www.wisdomnurseryschool.com/" target="_blank">Wisdom School , Pithoraghar</a></li>
+                <li> <a href="https://school.careers360.com/schools/koormanchal-academy-almora" target="_blank">Koormanchal Academy</a> </li>
+              </ol>
+              <br>
+              <li><strong>Higher Education</strong></li>
+              <ol>
+                <li><a href="http://www.banasthali.org/banasthali/admissions/?utm_source=jagranjosh&utm_medium=banner&utm_campaign=others" target="_blank">Banasthali Vidyapith,Rajasthan </a> </li>
+              </ol>
           </ul>
           <hr>
-          <h3>Education details</h3>
-          <table cellspacing="10">
-            <thead>
+          <h2><span class="headings">Education Duration</span></h2>
+          <table cellspacing="15" class="table">
+            <tr>
+              <td> <strong>YEAR</strong></td>
+              <td> <strong>DURATION</strong></td>
+            </tr>
+            <tr>
+              <td>Wisdom School</td>
+              <td> 2004-2006</td>
+            </tr>
+            <tr>
+              <td>Koormanchal Academy</td>
+              <td>2007-2019</td>
+            </tr>
+            <tr>
+              <td>Banasthali Vidyapith</td>
+              <td>2020-Present</td>
+            </tr>
+          </table>
+          <hr>
+          <h2><span class="headings">Skills</span></h2>
+            <table cellspacing="10" class=table>
               <tr>
-                <th>Year</th>
-                <th>School</th>
+                <td><strong>C programming</strong></td>
+                <td>⭐⭐⭐</td>
+                <td><strong>Java programming</strong></td>
+                <td>⭐⭐</td>
               </tr>
-            </thead>
-            <tbody>
-             <tr>
-              <td>2003-2005</td>
-              <td>Wisdom School Pithoragar</td>
-            </tr>
-            <tr>
-              <td>2005-2019</td>
-              <td>koormanchal academy</td>
-            </tr>
-            </tbody>
-          </table>
-          <br>
-          <hr>
-          <h3>Skills</h3>
-          <table  cellspacing="10" >
-            <tr>
-              <td>C programming</td>
-              <td>⭐⭐⭐⭐</td>
-              <td>Java programming</td>
-              <td>⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Web development</td>
-              <td>⭐</td>
-              <td>Dancing</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-          </table>
-          <hr>
-          <a href="hobbies.html">My Hobbies</a>
-          <br>
-          <a href="Contact.html">Contact us</a>
-
-
-
-
-
+              <tr>
+                <td><strong>Web development</strong></td>
+                <td>⭐</td>
+                <td><strong>Dancing</strong></td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+            <hr>
+            <a href="Contant_me.html" style="font-size:large" class=text>Contact us</a>
   </body>
 </html>
